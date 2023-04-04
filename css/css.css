@@ -165,6 +165,7 @@ section.recent .recent-container {
 
 .works-card-container .works-card-description h3{
     font-size: 1.875rem;
+    font-weight: 700;
 
 
 }
@@ -198,6 +199,8 @@ footer nav ul{
     width: 160px;
     justify-content: space-between;
     list-style: none;
+   
+
 }
 
 .vk,
