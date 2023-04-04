@@ -272,7 +272,7 @@ footer nav ul{
         max-width: 354px;
 
     }
-    .section.works .works-card-container{
+    section.works .works-card-container{
         flex-direction: column;
         max-width: 354px;
         margin-left: auto;
@@ -280,7 +280,7 @@ footer nav ul{
         
         
     }
-    .section.works .works-card-container .works-card-description{
+    section.works .works-card-container .works-card-description{
         min-height: 180px;
         margin-top: 12px;
     }
