@@ -223,3 +223,70 @@ footer nav ul{
     background-image: url('../img/Vector\ \(2\).svg');
 }
 
+@media screen and (max-width:900px){
+    .container{
+        max-width: 90%;
+    }
+    
+    section .recent .recent-card-conteiner{
+        max-width: 48%;
+    }
+}
+
+@media screen and (max-width:678px){
+    .content{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .content .left{
+        width: 70%;
+        text-align: center;
+        align-items: center;
+        margin-top: 33px;
+
+    }
+    .content .left button{
+        margin-top: 36px;
+
+    }
+    section.works .works-header h3,
+    section.recent .recent-header{
+        text-align: center;
+
+
+    }
+    section.recent .recent-header{
+        justify-content: center;
+    }
+    section.recent a.all{
+        display: none;
+    }
+
+    section.recent .recent-container{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    section.recent .recent-card-container{
+        max-width: 354px;
+
+    }
+    .section.works .works-card-container{
+        flex-direction: column;
+        max-width: 354px;
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+    }
+    .section.works .works-card-container .works-card-description{
+        min-height: 180px;
+        margin-top: 12px;
+    }
+    :root{
+        font-size: 14px;
+    }
+
+
+}
