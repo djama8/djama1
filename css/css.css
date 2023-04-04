@@ -10,6 +10,9 @@ body{
     --secondary-color:#00A8CC;
     --dark-blue: #142850;
     --bg-lightblue: #EDF7FA;
+    --border-grey:  #E5E5E5;
+    --grey-color: #8695A4;
+
 
 
 
@@ -138,4 +141,82 @@ section.recent .recent-container {
     justify-content: space-between;
 }
     
+.works-card-container{
+    display: flex;
+    padding-bottom: 15px;
+
+    margin-top: 30px;
+    border-bottom: 1px solid var(--border-grey);
+}
+.works-card-container img{
+    margin-right: 20px;
+}
+.works-card-container .works-card-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.works-card-container .works-card-description .description{
+    display: flex;
+    justify-content: space-between;
+    width: 190px;
+    align-items: center;
+}
+
+.works-card-container .works-card-description h3{
+    font-size: 1.875rem;
+
+
+}
+.works-card-container .works-card-description .description .date{
+    width: 62px;
+    height: 26px;
+    background-color: #142850;
+    border-radius: 16px;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 900;
+    text-align: center;
+}
+.works-card-container .works-card-description .description .tag{
+    font-size: 1.25rem;
+    color: var(--grey-color);
+
+}
+footer{
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom:50px;
+    align-items: center;
+}
+
+footer nav ul{
+    
+    display: flex;
+    width: 160px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.vk,
+.tg,
+.ok{
+    height: 40px;
+    width: 40px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+.vk{
+    background-image: url('../img/Vector1.svg');
+}
+.ok{
+    background-image: url('../img/tabler_brand-ok-ru.svg');
+}
+.tg{
+    background-image: url('../img/Vector\ \(2\).svg');
+}
 
