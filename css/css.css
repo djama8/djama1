@@ -28,6 +28,13 @@ body,html{
     margin: 0;
     padding: 0;
 }
+h1{
+    font-size: 2.75rem;
+}
+
+p{
+    font-size: 16px;
+}
 h1,h2,h3,h4{
     color:var(--main-color);
 }
@@ -65,8 +72,13 @@ header ul{
 
 header ul li a{
     text-decoration: none;
-    color: black;
+    color: var(--main-color);
 }
+
+header ul li a.active{   
+    color: var(--primary-color);
+}
+
 .content{
     margin-top: 120;
     margin: 120px 0 80px 0;
@@ -95,6 +107,12 @@ section h3{
     font-size: 1.4rem;
     font-weight: 400;
 }
+.section-header h2{
+    font-size: 2.125rem;
+}
+ section.works .works-header .description{
+    display: flex;
+ }
 section a.all{
     color: var(--secondary-color);
     text-decoration:none;
@@ -187,6 +205,31 @@ section.recent .recent-container {
     color: var(--grey-color);
 
 }
+section.works .works-header .description{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+section.works .works-header .description .date{
+    width: 62px;
+    height: 26px;
+    background-color:var(--primary-color);
+    border-radius: 16px;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 900;
+    text-align: center;
+}
+section.works .works-header .description .tag{
+    font-size: 1.25rem;
+    color: var(--grey-color);
+
+}
 footer{
     height: 260px;
     display: flex;
@@ -252,6 +295,10 @@ footer nav ul{
     .content .left button{
         margin-top: 36px;
 
+    }
+
+    section.works .works-header h1{
+        font-size: 2.75rem;
     }
     section.works .works-header h3,
     section.recent .recent-header{
